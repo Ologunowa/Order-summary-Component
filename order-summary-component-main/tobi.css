@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+html,
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    height:100%;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2rem;
+}
+
+.full-card{
+   width: 400px;
+   height: auto;
+   background: rgb(255, 255, 255);
+   border-radius: 15px;
+}
+
+.hero-img{
+  width: 400px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.first-header{
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+}
+
+.card-details p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5rem;
+  color: rgb(73, 68, 68);
+  letter-spacing: 0.5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.plan-section{
+  display: flex;
+  background: rgb(173, 188, 250, 0.1);
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.plan-section p{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.plan-section small{
+font-weight: normal;
+line-height: 01.5rem;
+}
+
+.plan-section img{
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 25px;
+}
+
+.plan-section .change{
+  float: none;
+  margin-left: 80px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.btn-primary{
+   text-align: center;
+   margin: 20px;
+   padding: 10px;
+}
+
+.main-btn{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 40px;
+  background: #0d34d6;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 90px -25px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.order-cancel{
+cursor: pointer;
+font-size: 12px;
+}
+.challenge{
+  position: absolute;
+  bottom: 2rem;
+}
